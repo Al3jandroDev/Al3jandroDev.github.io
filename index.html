@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Back-end Junior</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <nav>
+    <h3 data-key="navName">Alejandro Pimentel Pacheco</h3>
+    <ul>
+      <li><a href="#home" data-key="navHome">Home</a></li>
+      <li><a href="#about" data-key="navAbout">About Me</a></li>
+      <li><a href="#resume" data-key="navResume">Resume</a></li>
+      <li><a href="#projects" data-key="navProjects">Projects</a></li>
+      <li><a href="#services" data-key="navServices">Services</a></li>
+      <li><a href="#contact" data-key="navContact">Contact</a></li>
+    </ul>
+    <button id="themeToggle" aria-label="Cambiar entre modo claro y oscuro">🌙</button>
+    <button id="translateToggle" aria-label="Traducir contenido">EN</button>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <h1 data-key="homeTitle">Back-end Developer Junior</h1>
+  <p data-key="homeText">
+    Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM). Especializado en Back-end con Python y Java, desarrollo de APIs REST y bases de datos, con conocimientos de Front-end HTML, CSS y JavaScript, lo que me permite trabajar con una visión Full-Stack. Busco mi primera oportunidad profesional para crecer y aportar valor al equipo.
+  </p>
+  <a href="#contact" class="btn" data-key="contactBtn">Contáctame</a>
+</section>
+
+<section id="about">
+  <h2 data-key="aboutTitle">About Me</h2>
+  <p data-key="aboutText">
+    Soy un desarrollador back-end junior, Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM), especializado en Java y Python para la creación de APIs REST y gestión de bases de datos. También tengo conocimientos de Front-end HTML, CSS y JavaScript, lo que me permite tener una visión completa Full-Stack. Me considero una persona responsable, con gran capacidad de aprendizaje y motivación por crecer profesionalmente, buscando integrarme en un equipo donde pueda aportar valor y desarrollar mis habilidades.
+  </p>
+</section>
+
+<section id="resume">
+  <h2 data-key="resumeTitle">Resume</h2>
+  <div class="grid">
+    <div class="card">
+      <h3 data-key="profileTitle">Perfil</h3>
+      <p data-key="profileText">
+        Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, con experiencia en prácticas formativas y proyectos académicos. Enfocado en el desarrollo back-end, APIs REST y bases de datos.
+      </p>
+    </div>
+    <div class="card">
+      <h3 data-key="educationTitle">Educación</h3>
+      <p data-key="educationDegree"><strong>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</strong></p>
+      <ul data-key="educationList">
+        <li>Programación orientada a objetos</li>
+        <li>Desarrollo de aplicaciones back-end</li>
+        <li>Bases de datos SQL y NoSQL</li>
+        <li>Desarrollo web y proyectos académicos</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 data-key="techTitle">Conocimientos Técnicos</h3>
+      <ul data-key="techList">
+        <li><strong>Programación:</strong> Java, Python, C#</li>
+        <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Bases de Datos SQL:</strong> MySQL, MariaDB, SQLite</li>
+        <li><strong>Bases de Datos NoSQL:</strong> Firebase, Redis</li>
+        <li><strong>DevOps:</strong> Docker, VirtualBox, VMware</li>
+        <li><strong>Móvil:</strong> Android Studio (Java), Unity</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 data-key="experienceTitle">Experiencia</h3>
+      <p data-key="experienceElecnorTitle"><strong>Elecnor</strong> – Prácticas Formativas</p>
+      <p data-key="experienceElecnorDates">Marzo 2023 – Junio 2023</p>
+      <ul data-key="experienceElecnor">
+        <li>Soporte técnico y resolución de incidencias en entornos de telecomunicaciones</li>
+        <li>Trabajo en entornos técnicos, coordinación con equipos y seguimiento de procedimientos</li>
+      </ul>
+      <p data-key="experienceKalacibiTitle"><strong>Kalacibi</strong> – Prácticas Formativas</p>
+      <p data-key="experienceKalacibiDates">Octubre 2025 – Diciembre 2025</p>
+      <ul data-key="experienceKalacibi">
+        <li>Desarrollo de una solución en <strong>Python</strong> para la automatización del análisis y selección de candidatos a partir de distintos CVs.</li>
+        <li>Uso de servicios de <strong>Microsoft Azure</strong>, incluyendo <strong>Document Intelligence</strong>, para el procesamiento de documentos.</li>
+        <li>Implementación de la aplicación utilizando diferentes versiones de Python para garantizar compatibilidad.</li>
+        <li>Uso de almacenamiento en la nube mediante contenedores en Azure.</li>
+        <li>Aplicación de <strong>metodologías ágiles</strong> durante el desarrollo del proyecto.</li>
+        <li>Generación automática de CVs estructurados con la información más relevante para optimizar procesos de selección de recursos humanos.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3 data-key="objectiveTitle">Objetivo Profesional</h3>
+      <p data-key="objectiveText">
+        Conseguir mi primer empleo como desarrollador back-end junior o trainee, donde pueda aprender de un equipo experimentado y crecer profesionalmente.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 data-key="projectsTitle">Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3 data-key="project1Title">Proyecto Final de Grado – Aplicación de Preguntas y Respuestas</h3>
+      <p data-key="project1Text">
+        Desarrollo de una aplicación web como Proyecto Final de Grado, enfocada en la interacción de usuarios y la gestión de datos en tiempo real.
+      </p>
+      <ul data-key="project1List">
+        <li>Desarrollo del front-end con <strong>Angular</strong></li>
+        <li>Implementación de la lógica con <strong>JavaScript</strong></li>
+        <li>Gestión de datos y autenticación mediante <strong>Firebase</strong></li>
+        <li>Diseño de la interfaz con <strong>HTML y CSS</strong></li>
+      </ul>
+      <p><strong data-key="project1Tech">Tecnologías:</strong> Angular, JavaScript, Firebase, HTML, CSS</p>
+    </div>
+    <div class="card">
+      <h3 data-key="project2Title">Automatización de Análisis de CVs (Prácticas – Kalacibi)</h3>
+      <p data-key="project2Text">
+        Desarrollo de una solución back-end durante mis prácticas formativas, orientada a la automatización del análisis y selección de candidatos.
+      </p>
+      <ul data-key="project2List">
+        <li>Desarrollo de la aplicación en <strong>Python</strong></li>
+        <li>Procesamiento de documentos mediante <strong>Azure Document Intelligence</strong></li>
+        <li>Gestión de datos y almacenamiento en la nube mediante contenedores</li>
+        <li>Aplicación de metodologías ágiles</li>
+      </ul>
+      <p><strong data-key="project2Tech">Tecnologías:</strong> Python, Azure, Document Intelligence</p>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <h2 data-key="servicesTitle">Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3 data-key="service1Title">Desarrollo Back-end</h3>
+      <p data-key="service1Text">
+        Desarrollo de aplicaciones back-end utilizando <strong>Java y Python</strong>, implementando lógica de negocio, APIs REST y buenas prácticas de programación.
+      </p>
+    </div>
+    <div class="card">
+      <h3 data-key="service2Title">Desarrollo Web</h3>
+      <p data-key="service2Text">
+        Conocimientos de <strong>HTML, CSS y JavaScript</strong> para el desarrollo de interfaces web y la integración con el <strong>back-end</strong>, lo que me permite trabajar con una visión <strong>Full-Stack</strong>.
+      </p>
+    </div>
+    <div class="card">
+      <h3 data-key="service3Title">Bases de Datos</h3>
+      <p data-key="service3Text">
+        Trabajo con bases de datos <strong>SQL</strong> (MySQL, MariaDB, SQLite) y nociones de <strong>NoSQL</strong> (Firebase, Redis).
+      </p>
+    </div>
+    <div class="card">
+      <h3 data-key="service4Title">DevOps y Entornos</h3>
+      <p data-key="service4Text">
+        Uso de herramientas de virtualización y contenedores como <strong>Docker, VirtualBox y VMware</strong> para entornos de desarrollo.
+      </p>
+    </div>
+    <div class="card">
+      <h3 data-key="service5Title">Desarrollo Móvil</h3>
+      <p data-key="service5Text">
+        Desarrollo de aplicaciones móviles con <strong>Android Studio (Java)</strong> e integración de servicios con <strong>Firebase</strong>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 data-key="contactTitle">Contact</h2>
+  <p data-key="contactEmail">Email: alexpimentelpacheco@gmail.com</p>
+  <p data-key="contactLinkedin">
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/alejandro-pimentel-pacheco-0a5656262/" target="_blank" rel="noopener noreferrer">
+      linkedin.com/in/alejandro-pimentel-pacheco
+    </a>
+  </p>
+  <p data-key="contactGithub">GitHub: <a href="https://github.com/tuusuario">GitHub</a></p>
+</section>
+
+<footer>
+  <p data-key="footerText">© 2026 Alejandro Pimentel Pacheco | Back-end Developer Junior</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById("themeToggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    toggle.textContent = 
+      document.body.classList.contains("dark") ? "☀️" : "🌙";
+  });
+</script>
+
+<script>
+const translateToggle = document.getElementById("translateToggle");
+let isEnglish = false;
+
+// Objeto de traducciones (igual que tu versión)
+const translations = {
+  navName: { es: "Alejandro Pimentel Pacheco", en: "Alejandro Pimentel Pacheco" },
+  navHome: { es: "Home", en: "Home" },
+  navAbout: { es: "About Me", en: "About Me" },
+  navResume: { es: "Resume", en: "Resume" },
+  navProjects: { es: "Projects", en: "Projects" },
+  navServices: { es: "Services", en: "Services" },
+  navContact: { es: "Contact", en: "Contact" },
+  homeTitle: { es: "Back-end Developer Junior", en: "Back-end Junior Developer" },
+  homeText: { 
+    es: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM). Especializado en Back-end con Python y Java, desarrollo de APIs REST y bases de datos, con conocimientos de Front-end HTML, CSS y JavaScript, lo que me permite trabajar con una visión Full-Stack. Busco mi primera oportunidad profesional para crecer y aportar valor al equipo.",
+    en: "Higher Technician in Multiplatform Application Development (DAM). Specialized in Back-end with Python and Java, REST API development and databases, with Front-end knowledge in HTML, CSS, and JavaScript, allowing me to work with a Full-Stack vision. Looking for my first professional opportunity to grow and add value to the team."
+  },
+  contactBtn: { es: "Contáctame", en: "Contact Me" },
+  aboutTitle: { es: "About Me", en: "About Me" },
+  aboutText: {
+    es: "Soy un desarrollador back-end junior, Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM), especializado en Java y Python para la creación de APIs REST y gestión de bases de datos. También tengo conocimientos de Front-end HTML, CSS y JavaScript, lo que me permite tener una visión completa Full-Stack. Me considero una persona responsable, con gran capacidad de aprendizaje y motivación por crecer profesionalmente, buscando integrarme en un equipo donde pueda aportar valor y desarrollar mis habilidades.",
+    en: "I am a junior back-end developer, Higher Technician in Multiplatform Application Development (DAM), specialized in Java and Python for REST API creation and database management. I also have Front-end knowledge in HTML, CSS, and JavaScript, giving me a complete Full-Stack vision. I consider myself responsible, highly motivated, and eager to learn, seeking to join a team where I can add value and develop my skills."
+  },
+  resumeTitle: { es: "Resume", en: "Resume" },
+  profileTitle: { es: "Perfil", en: "Profile" },
+  profileText: { 
+    es: "Técnico Superior en Desarrollo de Aplicaciones Multiplataforma, con experiencia en prácticas formativas y proyectos académicos. Enfocado en el desarrollo back-end, APIs REST y bases de datos.",
+    en: "Higher Technician in Multiplatform Application Development, with experience in training internships and academic projects. Focused on back-end development, REST APIs, and databases." 
+  },
+  educationTitle: { es: "Educación", en: "Education" },
+  educationDegree: { 
+    es: "<strong>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>", 
+    en: "<strong>Higher Technician in Multiplatform Application Development (DAM)</strong>" 
+  },
+  educationList: { 
+    es: ["Programación orientada a objetos","Desarrollo de aplicaciones back-end","Bases de datos SQL y NoSQL","Desarrollo web y proyectos académicos"],
+    en: ["Object-oriented programming","Back-end application development","SQL and NoSQL databases","Web development and academic projects"]
+  },
+  techTitle: { es: "Conocimientos Técnicos", en: "Technical Skills" },
+  techList: { 
+    es: ["<strong>Programación:</strong> Java, Python, C#","<strong>Web:</strong> HTML, CSS, JavaScript","<strong>Bases de Datos SQL:</strong> MySQL, MariaDB, SQLite","<strong>Bases de Datos NoSQL:</strong> Firebase, Redis","<strong>DevOps:</strong> Docker, VirtualBox, VMware","<strong>Móvil:</strong> Android Studio (Java), Unity"],
+    en: ["<strong>Programming:</strong> Java, Python, C#","<strong>Web:</strong> HTML, CSS, JavaScript","<strong>SQL Databases:</strong> MySQL, MariaDB, SQLite","<strong>NoSQL Databases:</strong> Firebase, Redis","<strong>DevOps:</strong> Docker, VirtualBox, VMware","<strong>Mobile:</strong> Android Studio (Java), Unity"]
+  },
+  experienceTitle: { es: "Experiencia", en: "Experience" },
+  experienceElecnorTitle: { es: "Elecnor – Prácticas Formativas", en: "Elecnor – Internship" },
+  experienceElecnorDates: { es: "Marzo 2023 – Junio 2023", en: "March 2023 – June 2023" },
+  experienceElecnor: {
+    es: ["Soporte técnico y resolución de incidencias en entornos de telecomunicaciones","Trabajo en entornos técnicos, coordinación con equipos y seguimiento de procedimientos"],
+    en: ["Technical support and troubleshooting in telecommunications environments","Working in technical environments, coordinating with teams and following procedures"]
+  },
+  experienceKalacibiTitle: { es: "Kalacibi – Prácticas Formativas", en: "Kalacibi – Internship" },
+  experienceKalacibiDates: { es: "Octubre 2025 – Diciembre 2025", en: "October 2025 – December 2025" },
+  experienceKalacibi: {
+    es: ["Desarrollo de una solución en <strong>Python</strong> para la automatización del análisis y selección de candidatos a partir de distintos CVs.","Uso de servicios de <strong>Microsoft Azure</strong>, incluyendo <strong>Document Intelligence</strong>, para el procesamiento de documentos.","Implementación de la aplicación utilizando diferentes versiones de Python para garantizar compatibilidad.","Uso de almacenamiento en la nube mediante contenedores en Azure.","Aplicación de <strong>metodologías ágiles</strong> durante el desarrollo del proyecto.","Generación automática de CVs estructurados con la información más relevante para optimizar procesos de selección de recursos humanos."],
+    en: ["Developed a <strong>Python</strong> solution for automating CV analysis and candidate selection.","Used <strong>Microsoft Azure</strong> services including <strong>Document Intelligence</strong> for document processing.","Implemented the application using different Python versions to ensure compatibility.","Used cloud storage with Azure containers.","Applied <strong>agile methodologies</strong> during project development.","Automatically generated structured CVs with relevant information to optimize HR selection processes."]
+  },
+  objectiveTitle: { es: "Objetivo Profesional", en: "Professional Objective" },
+  objectiveText: { 
+    es: "Conseguir mi primer empleo como desarrollador back-end junior o trainee, donde pueda aprender de un equipo experimentado y crecer profesionalmente.",
+    en: "To obtain my first job as a junior back-end developer or trainee, where I can learn from an experienced team and grow professionally." 
+  },
+
+  // Projects
+project1Title: { es: "Proyecto Final de Grado – Aplicación de Preguntas y Respuestas", en: "Final Degree Project – Q&A Application" },
+project1Text: { es: "Desarrollo de una aplicación web como Proyecto Final de Grado, enfocada en la interacción de usuarios y la gestión de datos en tiempo real.", en: "Development of a web application as a Final Degree Project, focused on user interaction and real-time data management." },
+project1List: {
+  es: ["Desarrollo del front-end con <strong>Angular</strong>","Implementación de la lógica con <strong>JavaScript</strong>","Gestión de datos y autenticación mediante <strong>Firebase</strong>","Diseño de la interfaz con <strong>HTML y CSS</strong>"],
+  en: ["Front-end development with <strong>Angular</strong>","Logic implementation with <strong>JavaScript</strong>","Data management and authentication with <strong>Firebase</strong>","Interface design with <strong>HTML and CSS</strong>"]
+},
+project1Tech: { es: "Tecnologías:", en: "Technologies:" },
+
+project2Title: { es: "Automatización de Análisis de CVs (Prácticas – Kalacibi)", en: "CV Analysis Automation (Internship – Kalacibi)" },
+project2Text: { es: "Desarrollo de una solución back-end durante mis prácticas formativas, orientada a la automatización del análisis y selección de candidatos.", en: "Development of a back-end solution during my internship, aimed at automating candidate analysis and selection." },
+project2List: {
+  es: ["Desarrollo de la aplicación en <strong>Python</strong>","Procesamiento de documentos mediante <strong>Azure Document Intelligence</strong>","Gestión de datos y almacenamiento en la nube mediante contenedores","Aplicación de metodologías ágiles"],
+  en: ["Application development in <strong>Python</strong>","Document processing with <strong>Azure Document Intelligence</strong>","Data management and cloud storage with containers","Application of agile methodologies"]
+},
+project2Tech: { es: "Tecnologías:", en: "Technologies:" },
+
+// Services
+service1Title: { es: "Desarrollo Back-end", en: "Back-end Development" },
+service1Text: { es: "Desarrollo de aplicaciones back-end utilizando <strong>Java y Python</strong>, implementando lógica de negocio, APIs REST y buenas prácticas de programación.", en: "Back-end development using <strong>Java and Python</strong>, implementing business logic, REST APIs, and best programming practices." },
+
+service2Title: { es: "Desarrollo Web", en: "Web Development" },
+service2Text: { es: "Conocimientos de <strong>HTML, CSS y JavaScript</strong> para el desarrollo de interfaces web y la integración con el <strong>back-end</strong>, lo que me permite trabajar con una visión <strong>Full-Stack</strong>.", en: "Knowledge of <strong>HTML, CSS, and JavaScript</strong> for web interface development and integration with the <strong>back-end</strong>, allowing me to work with a <strong>Full-Stack</strong> vision." },
+
+service3Title: { es: "Bases de Datos", en: "Databases" },
+service3Text: { 
+  es: "Trabajo con bases de datos <strong>SQL</strong> (MySQL, MariaDB, SQLite) y nociones de <strong>NoSQL</strong> (Firebase, Redis).", 
+  en: "Work with <strong>SQL</strong> databases (MySQL, MariaDB, SQLite) and some <strong>NoSQL</strong> knowledge (Firebase, Redis)." 
+},
+
+service4Title: { es: "DevOps y Entornos", en: "DevOps & Environments" },
+service4Text: { 
+  es: "Uso de herramientas de virtualización y contenedores como <strong>Docker, VirtualBox y VMware</strong> para entornos de desarrollo.", 
+  en: "Use of virtualization and container tools such as <strong>Docker, VirtualBox, and VMware</strong> for development environments." 
+},
+
+service5Title: { es: "Desarrollo Móvil", en: "Mobile Development" },
+service5Text: { 
+  es: "Desarrollo de aplicaciones móviles con <strong>Android Studio (Java)</strong> e integración de servicios con <strong>Firebase</strong>.", 
+  en: "Development of mobile applications with <strong>Android Studio (Java)</strong> and integration with <strong>Firebase</strong>." 
+},
+
+// Contact
+contactTitle: { es: "Contacto", en: "Contact" },
+contactEmail: { es: "Email: alexpimentelpacheco@gmail.com", en: "Email: alexpimentelpacheco@gmail.com" },
+contactLinkedin: { es: 'LinkedIn: <a href="https://www.linkedin.com/in/alejandro-pimentel-pacheco-0a5656262/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alejandro-pimentel-pacheco</a>', en: 'LinkedIn: <a href="https://www.linkedin.com/in/alejandro-pimentel-pacheco-0a5656262/" target="_blank" rel="noopener noreferrer">linkedin.com/in/alejandro-pimentel-pacheco</a>' },
+contactGithub: { es: 'GitHub: <a href="https://github.com/tuusuario">GitHub</a>', en: 'GitHub: <a href="https://github.com/tuusuario">GitHub</a>' },
+
+// Footer
+footerText: { es: "© 2026 Alejandro Pimentel Pacheco | Back-end Developer Junior", en: "© 2026 Alejandro Pimentel Pacheco | Back-end Junior Developer" }
+};
+
+// Función para traducir listas <ul><li>
+function translateList(ulElement, esList, enList) {
+  const items = isEnglish ? enList : esList;
+  ulElement.innerHTML = "";
+  items.forEach(item => {
+    const li = document.createElement("li");
+    li.innerHTML = item; // <-- importante usar innerHTML aquí
+    ulElement.appendChild(li);
+  });
+}
+
+// Evento del botón
+translateToggle.addEventListener("click", () => {
+  isEnglish = !isEnglish;
+  translateToggle.textContent = isEnglish ? "ES" : "EN";
+
+  document.querySelectorAll("[data-key]").forEach(el => {
+    const key = el.getAttribute("data-key");
+    if (!translations[key]) return;
+
+    if (el.tagName.toLowerCase() === "ul") {
+      translateList(el, translations[key].es, translations[key].en);
+    } else {
+      el.innerHTML = isEnglish ? translations[key].en : translations[key].es; // <-- aquí también innerHTML
+    }
+  });
+});
+</script>
+
+</body>
+</html>

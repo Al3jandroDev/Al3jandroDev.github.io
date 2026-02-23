@@ -1,0 +1,249 @@
+/* ===== Theme variables ===== */
+:root {
+  /* Backgrounds */
+  --bg-body: #f5f7fa;
+  --bg-section: #ffffff;
+  --bg-header: #ffffff;
+  --bg-muted: #f1f5f9;
+
+  /* Text */
+  --text-main: #1f2933;
+  --text-title: #111827;
+  --text-muted: #475569;
+
+  /* Accent */
+  --accent: #2563eb;
+  --accent-hover: #1e40af;
+
+  /* Cards */
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+
+  /* Hero */
+  --hero-bg: linear-gradient(135deg, #e5e7eb 0%, #f8fafc 100%);
+  --hero-text: #0f172a;
+
+  /* Nav */
+  --nav-bg: #ffffff;
+}
+
+/* ===== Dark theme ===== */
+body.dark {
+  --bg-body: #0f172a;
+  --bg-section: #020617;
+  --bg-muted: #020617;
+  --bg-header: #111827;
+
+  --text-main: #e5e7eb;
+  --text-title: #f8fafc;
+  --text-muted: #94a3b8;
+
+  --accent: #60a5fa;
+  --accent-hover: #3b82f6;
+
+  --card-bg: #111827;
+  --card-shadow: rgba(0, 0, 0, 0.4);
+
+  --hero-bg: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  --hero-text: #e5e7eb;
+
+  --nav-bg: #111827;
+}
+
+/* ===== Reset básico ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-main);
+  background-color: var(--bg-body);
+}
+
+/* ===== Layout general ===== */
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  background: var(--bg-section);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-title);
+  border-bottom: 3px solid var(--accent);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-muted);
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+ul {
+  margin: 0.75rem 0 1rem 1.25rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  color: var(--accent);
+}
+
+/* ===== Grid y Cards ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px var(--card-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Contact ===== */
+#contact p {
+  font-size: 1rem;
+  color: var(--text-main);
+}
+
+#contact a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  section {
+    padding: 3rem 1rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* ===== Header & Nav ===== */
+header {
+  background: var(--bg-header);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1rem 0;
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  background: var(--nav-bg);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+nav h1 {
+  color: var(--text-title);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 0.75rem;
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  background: var(--accent);
+  color: var(--text-title);
+}
+
+/* ===== Hero ===== */
+.hero {
+  text-align: center;
+  padding: 8rem 1.5rem;
+  background: var(--hero-bg);
+  color: var(--hero-text);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .btn {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  background: var(--accent);
+  color: var(--text-title);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: var(--bg-section);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
