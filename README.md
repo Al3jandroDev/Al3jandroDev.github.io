@@ -23,6 +23,7 @@ I am currently seeking my first professional opportunity as a Junior Back-end De
 ### Back-end
 - Python
 - Java
+- FastAPI
 - REST APIs
 - SQL & NoSQL Databases
 
@@ -33,6 +34,7 @@ I am currently seeking my first professional opportunity as a Junior Back-end De
 - Angular (academic project)
 
 ### Databases
+- PostgreSQL
 - MySQL
 - MariaDB
 - SQLite
@@ -42,11 +44,31 @@ I am currently seeking my first professional opportunity as a Junior Back-end De
 - Docker
 - Git & GitHub
 - Azure
+- Render (deployment)
 - Virtual environments
 
 ---
 
-## 🚀 Projects Included in Portfolio
+## 🚀 Featured Project
+
+### 🔐 Task Manager API (FastAPI + PostgreSQL)
+
+Production-ready REST API with authentication and user-based access control.
+
+**Features:**
+- JWT Authentication
+- CRUD operations for tasks
+- User-specific data access
+- PostgreSQL database (deployed on Render)
+- Interactive API documentation (Swagger)
+
+**Links:**
+- 🚀 Live API: https://task-manager-api-j538.onrender.com/docs
+- 💻 GitHub: https://github.com/Al3jandroDev/task-manager-api
+
+---
+
+## 🚀 Other Projects
 
 ### 📌 CV Analysis Automation (Internship Project)
 - Python-based solution for CV processing
