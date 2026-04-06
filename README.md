@@ -1,6 +1,6 @@
 # Alejandro Pimentel Pacheco
 
-Junior Back-end Developer specialized in Python and Java, focused on REST APIs and database management, with Full-Stack fundamentals.
+Personal portfolio showcasing my projects and skills as a Junior Back-end Developer (Python & Java). Includes REST APIs, database management, and Full-Stack fundamentals.
 
 ---
 
